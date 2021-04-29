@@ -48,7 +48,7 @@ local showWatermark = true
 
 CreateThread(function()
   Wait(1000)
-  print('hello')
+  --print('hello')
   -- send config values to NUI
   SendNuiMessage(json.encode{
     type = 'setup',
@@ -60,7 +60,7 @@ CreateThread(function()
 
     -- show each item if enabled, then hide
     if nameEnabled then
-      print('Name Enabled')
+      --print('Name Enabled')
       -- show name
       SendNuiMessage(json.encode{
         type = 'showItem',
@@ -73,7 +73,7 @@ CreateThread(function()
     end
 
     if linkEnabled then
-      print('Link Enabled')
+      --print('Link Enabled')
       -- show link
       SendNuiMessage(json.encode{
         type = 'showItem',
@@ -86,7 +86,7 @@ CreateThread(function()
     end
 
     if logoEnabled then
-      print('Logo Enabled')
+      --print('Logo Enabled')
       -- show logo
       SendNuiMessage(json.encode{
         type = 'showItem',
