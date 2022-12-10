@@ -13,21 +13,19 @@ tutorial for this is in forum post ]]
 ---- CONFIG ----
 ----------------
 
--- time between each item showing
+-- time between each item showing in the cycle in seconds
 local cycleTime = 1
--- time before showing watermark again after all items show
+-- time before showing watermark again after all items show in seconds
 local restTime = 2
 
 -- enable name?
 local nameEnabled = true
 -- your server name
--- use /restart simple-watermark to update
 local name = 'Your Server Name'
 
 -- enable link?
 local linkEnabled = true
 -- your server link
--- use /restart simple-watermark to update
 local link = 'Discord.gg/yourinvite'
 
 -- enable logo?
@@ -41,7 +39,6 @@ local logoEnabled = true
 ------- CODE -------
 --------------------
 --------------------
--- only edit if you are the smart
 --------------------
 
 local showWatermark = true
