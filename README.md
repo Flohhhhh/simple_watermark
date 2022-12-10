@@ -8,6 +8,7 @@ INSTALLATION:
 
 USE:
 - Customize the resource using the config section at the top of client.lua
+- Replace logo.png in the ``ui`` file with your own! Must be a square png.
 - Tutorials for changing CSS can be found in the forum thread!
 
 For support visit: https://discord.gg/zH3k624aSv
