@@ -46,6 +46,7 @@ local logoEnabled = true
 
 local showWatermark = true
 
+print('test')
 CreateThread(function()
   Wait(1000)
   --print('hello')
